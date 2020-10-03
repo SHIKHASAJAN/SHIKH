@@ -1,5 +1,4 @@
 
-/* Bubble sort code */
 
 #include <stdio.h>
 
