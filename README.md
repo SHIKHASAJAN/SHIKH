@@ -23,7 +23,7 @@ int main()
       {
         swap       = array[d];
         array[d]   = array[d+1];
-        array[d+1] = swap;
+        swap =array[d,1]
       }
     }
   }
