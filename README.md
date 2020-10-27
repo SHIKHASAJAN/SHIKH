@@ -9,7 +9,7 @@ int main()
   printf("Enter number of elements\n");
   scanf("%d", &a);
 
-  printf("Enter %d integers\n", a);
+  printf("Enter %d integers\n\n", a);
 
   for (c = 0; c < a; c++)
     scanf("%d"\n, &array[c]);
