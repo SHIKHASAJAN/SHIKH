@@ -12,7 +12,7 @@ int main()
   printf("Enter %d integers\n\n", a);
 
   for (c = 0; c < a; c++)
-    scanf("%d"\n, &array[c]);
+    scanf("%d"\n\n, &array[c]);
 
   for (c = 0 ; c < a - 1; c++)
   {
