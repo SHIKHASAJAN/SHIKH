@@ -1,5 +1,4 @@
 
-/* Bubble sort code */
 
 #include <stdio.h>
 
@@ -10,10 +9,10 @@ int main()
   printf("Enter number of elements\n");
   scanf("%d", &a);
 
-  printf("Enter %d integers\n", a);
+  printf("Enter %d integers\n\n", a);
 
   for (c = 0; c < a; c++)
-    scanf("%d", &array[c]);
+    scanf("%d"\n\n, &array[c]);
 
   for (c = 0 ; c < a - 1; c++)
   {
@@ -23,15 +22,14 @@ int main()
       {
         swap       = array[d];
         array[d]   = array[d+1];
-        swap =array[d,1]
+        
       }
-    }
-  }
+    
 
   printf("Sorted list in ascending order:\n");
 
   for (c = 0; c < a; c++)
-     printf("%d\a", array[c]);
+     printf("%d\a\n", array[c]);
 
   return 0;
 }
