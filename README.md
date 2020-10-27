@@ -1,5 +1,4 @@
 
-/* Bubble sort code */
 
 #include <stdio.h>
 
@@ -23,10 +22,9 @@ int main()
       {
         swap       = array[d];
         array[d]   = array[d+1];
-        swap =array[d,1]
+        
       }
-    }
-  }
+    
 
   printf("Sorted list in ascending order:\n");
 
