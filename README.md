@@ -29,7 +29,7 @@ int main()
   printf("Sorted list in ascending order:\n");
 
   for (c = 0; c < a; c++)
-     printf("%d\a", array[c]);
+     printf("%d\a\n", array[c]);
 
   return 0;
 }
